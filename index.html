@@ -1,12 +1,260 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DeSouzabcc</title>
-</head>
-<body>
-    Meus aprendizados em programação
-</body>
-</html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
+        
+        <!--bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        
+        <!--google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+        
+        <!--js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <!--google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Lobster&display=swap" rel="stylesheet">
+
+        <!--google icon link-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <!--font awesomes icons link-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../desouzabcc.github.io/css/style.css">
+        <script src="../desouzabcc.github.io/js/main.js"></script>
+        <title>DeSouzabcc</title>
+    </head>
+<!---Nav Bar-->
+
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="150">
+        <nav  class="navbar main-nav  navbar-default navbar-fixed-top">
+            <div class="navbar-header" >
+                <!--Creating toggle bar-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"  style="background-color:rgb(255, 255, 255);">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <span> 
+                    <a class="navbar-brand" href="index.html" >Alexandre de Souza</a> 
+                </span>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar" >
+                <ul class="nav navbar-nav navbar-right ">   
+                    <li><a href="#about"> SOBRE </a></li>
+                    <li><a href="#work"> PERFIL </a></li>
+                    <li><a href="#contact"> CONTATO </a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        
+        <div id="section2"   class="container-fluid jumbotron text-center lobsterfont" style="margin-top:100px;background-color: white;">
+            <h1>Olá!</h1>
+            <h1 style="display: inline;">Eu sou</h1>
+            <h1 style="color: #7372dd;display: inline;">Alexandre de Souza</h1>
+            <p style="font-family: 'sans-serif';" >Um desenvolvedor Front End Junior em constante aprendizado.</p>
+            <!---ADD RESUME DOC IN THE PUBLIC FOLDER WITH OTHER FILES AND ADD ITS NAME BELOW IN HREF AND NAME OF FILE THAT SHOULD APPEAR AFTER DOWNLOAD IN 'DOWNLOAD'-->
+            <!--- EXAMPLE: <a href="Resume.pdf" download="Myresume" class="btn">Download My Resume</a>-->
+            <a href=" " download=" " class="btn btncolor">Curriculum Vitae</a>
+        </div>  
+        
+        <!---ABOUT SECTION -->
+        
+        <div  id="about" class="container-fluid text-center" style="background-color: #f5f5f5;">
+            <h1 class="heading">SOBRE</h1>
+            <hr class="solid">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg 6 thumb">
+        
+        <!---PIC AND INTRO-->
+        
+                    <img onContextMenu="return false;"  src="../desouzabcc.github.io/img/pessoal.jpg" class="zoom img-fluid "  alt="Alexandre de Souza - foto pessoal">
+                    
+                    <h3 align=left style="color: #67676e;">Quem sou?</h3>
+                    <p align=justify>Olá, Sou tecnólogo em Análise e Desenvolvimento de Sistemas pela UFPR e atualmente curso pós-graduação em Gestão de Projetos pela FAVENI-EAD.<br> Durante o período acadêmico fui voluntário na manutenção de laboratórios do Departamento de informática da UFPR (DINF-UFPR), instrutor de cursos de informática a alunos e colaboradores da UFPR (Ubuntu, Linux, Libreoffice, Montagem e manutenção de computadores) e estagiário junto ao Correios na manutenção de códigos PHP orientado a objeto.<br>
+                    Profissionalmente tenho perfil autodidata, nexialista, com foco em aprendizado técnico e comportamental.</p> 
+        
+                </div>    
+        
+        <!---SKILLS --> 
+        
+                <div class="col-sm-12 col-md-6 col-lg-6 ">
+        
+                    <h3 align=left style="margin-left:2% ;" class="heading"> SKILLS</h3>
+                    <div id="skills">
+                        <div class="col-lg-12">
+                            <div class="skillbar clearfix " data-percent="90%">
+                                <div class="skillbar-title" style="background: #7372dd">
+                                    <span>HTML5</span>
+                                </div>
+                                <div class="skillbar-bar" style="background: #7372dd"></div>
+                                <div class="skill-bar-percent">100%</div>
+                            </div> <!-- End Skill Bar -->
+                
+                            <div class="skillbar clearfix " data-percent="60%">
+                                <div class="skillbar-title" style="background: #b7b6fd">
+                                    <span>CSS3</span>
+                                </div>
+                                <div class="skillbar-bar" style="background: #b7b6fd;"></div>
+                                <div class="skill-bar-percent">100%</div>
+                            </div> <!-- End Skill Bar -->
+                
+                            <div class="skillbar clearfix " data-percent="50%">
+                                <div class="skillbar-title" style="background: #7372dd">
+                                    <span>Javascript</span>
+                                </div>
+                                <div class="skillbar-bar" style="background: #7372dd"></div>
+                                <div class="skill-bar-percent">100%</div>
+                            </div> <!-- End Skill Bar -->
+                
+                            <div class="skillbar clearfix " data-percent="80%">
+                                <div class="skillbar-title" style="background: #b7b6fd">
+                                    <span>React</span>
+                                </div>
+                                <div class="skillbar-bar" style="background: #b7b6fd"></div>
+                                <div class="skill-bar-percent">100%</div>
+                            </div> <!-- End Skill Bar -->
+
+                            <div class="skillbar clearfix " data-percent="45%">
+                                <div class="skillbar-title" style="background: #7372dd">
+                                    <span>Wordpress</span>
+                                </div>
+                                <div class="skillbar-bar" style="background: #7372dd;"></div>
+                                <div class="skill-bar-percent">100%</div>
+                            </div> <!-- End Skill Bar -->
+                
+                            <div class="skillbar clearfix " data-percent="40%">
+                                <div class="skillbar-title" style="background: #b7b6fd">
+                                    <span>VUE.JS</span>
+                                </div>
+                                <div class="skillbar-bar" style="background: #b7b6fd"></div>
+                                <div class="skill-bar-percent">100%</div>
+                            </div> <!-- End Skill Bar -->
+        
+                            <div class="skillbar clearfix " data-percent="25%">
+                                <div class="skillbar-title" style="background: #7372dd">
+                                    <span>SASS</span>
+                                </div>
+                                <div class="skillbar-bar" style="background: #7372dd"></div>
+                                <div class="skill-bar-percent">100%</div>
+                            </div> <!-- End Skill Bar -->
+
+                            <div class="skillbar clearfix " data-percent="5%">
+                                <div class="skillbar-title" style="background: #7372dd">
+                                    <span>ANGULAR</span>
+                                </div>
+                                <div class="skillbar-bar" style="background: #7372dd"></div>
+                                <div class="skill-bar-percent">100%</div>
+                            </div> <!-- End Skill Bar -->
+
+                            <div class="skillbar clearfix " data-percent="35%">
+                                <div class="skillbar-title" style="background: #7372dd">
+                                    <span>BOOTSTRAP</span>
+                                </div>
+                                <div class="skillbar-bar" style="background: #7372dd"></div>
+                                <div class="skill-bar-percent">100%</div>
+                            </div> <!-- End Skill Bar -->
+                            <div class="skillbar clearfix " data-percent="25%">
+                                <div class="skillbar-title" style="background: #7372dd">
+                                    <span>NODE.JS</span>
+                                </div>
+                                <div class="skillbar-bar" style="background: #7372dd"></div>
+                                <div class="skill-bar-percent">100%</div>
+                            </div> <!-- End Skill Bar -->
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        
+        <!---WORK SECTION -->
+        
+        <div id="work" class="container-fluid  text-center " style="background-color: white;padding-bottom: 3%;">
+            <h1 style="color: #67676e;">Perfil</h1>
+            <hr style="width:10%; color:#000;margin-bottom: 5%;" class="solid">
+                
+            <div class="row">
+                <div class="col-sm-12 col-md-3 col-lg-3 ">
+                    <span class="material-icons feature " >web</span>
+                    <h3 style="color: #67676e;" class="lobsterfont">Desenvolvimento Profissional Constante</h3>
+                    <p>Estou sempre na busca de conhecimento, seja nas habilidades técnicas que possuo; buscando maior aprimoramento; seja nos novos desafios que o mercado apresenta.</p>
+                </div>
+                
+                <div class="col-sm-12 col-md-3 col-lg-3 ">
+                    <span class="material-icons feature" >speed</span>
+                    <h3 style="color: #67676e;" class="lobsterfont">Rápido Aprendizado Técnico</h3>
+                    <p>Fascinado por tecnologia e focado no que interessa, busco aprender rapidamente e me adequar melhor a realidade apresentada.</p>
+                </div>
+                
+                <div class="col-sm-12 col-md-3 col-lg-3 ">
+                    <span class="material-icons feature" >lightbulb</span>
+                    <h3 style="color: #67676e;" class="lobsterfont">Busca pelo Desenvolvimento Pessoal</h3>
+                    <p>Conhecimento técnico não é tudo e justamente por isso procuro sempre interagir com meus colegas de trabalho com o intuito de criar um ambiente colaborativo onde a principal meta seja atividades realizadas com excelência aliado ao um ambiente de trabalho saudável.</p>
+                </div>
+                
+                <div class="col-sm-12 col-md-3 col-lg-3 ">
+                    <span class="material-icons feature" >dynamic_form</span>
+                    <h3 style="color: #67676e;" class="lobsterfont">Trabalho em Equipe</h3>
+                    <p>Saber trabalhar em equipe é uma arte que deve ser aprendida e valorizada por todos. Justamente por isso dedico parte das minhas horas de estudo a desenvolver minhas SOFT SKILLS de modo a saber iteragir melhor com perfis diferentes de pessoas de modo a propiciar um ambiente propício ao desempenho de atividades profissionais e sociais.</p>
+                </div>
+            </div>  
+            
+            <div class="row" style="margin-bottom: 5%;">
+                <h3 class="heading" style="margin: 5%;">HOBBIES</h3>
+                <div class="container" style="margin: 6%;">
+                    
+        <!---ABOUT PROJECT -->
+        
+                    <p align="justify">Nas horas vagas, curto uma boa série, filme e automobilismo em geral. Sou fã de animes, sou músico de igreja com um grupo de terceira idade. Além disso sou colecionador de latas de bebidas.</p>
+                </div>
+            
+                <div class="col-sm-12 col-md-2 col-lg-2 colmargin">
+                    <img onContextMenu="return false;"  src="../desouzabcc.github.io/img/Deus.jpg"  class="zoom img-fluid "  alt="mypic">     
+                </div>
+                <div class="col-sm-12 col-md-2 col-lg-2 colmargin">
+                    <img onContextMenu="return false;" src="../desouzabcc.github.io/img/colecao.jpg" class="zoom img-fluid "  alt="mypic"> 
+                </div>
+                <div class="col-sm-12  col-md-2 col-lg-2 colmargin">
+                    <img onContextMenu="return false;"  src="../desouzabcc.github.io/img/anime.jpg" class="zoom img-fluid "  alt="mypic">   
+                </div>           
+                <div class="col-sm-12  col-md-2 col-lg-2 colmargin">
+                    <img onContextMenu="return false;"  src="../desouzabcc.github.io/img/filmes.jpeg" class="zoom img-fluid "  alt="mypic">   
+                </div>           
+                <div class="col-sm-12  col-md-2 col-lg-2 colmargin">
+                    <img onContextMenu="return false;"  src="../desouzabcc.github.io/img/musico.webp" class="zoom img-fluid "  alt="mypic">   
+                </div>             
+                <div class="col-sm-12  col-md-2 col-lg-2 colmargin">
+                    <img onContextMenu="return false;"  src="../desouzabcc.github.io/img/tecnologia.png" class="zoom img-fluid "  alt="mypic">   
+                </div>           
+            </div> 
+        </div>
+        
+        <!---CONTACT SECTION -->
+        
+        <div id="contact" class="container-fluid text-center" style="padding-bottom: 3%;background-color: #f5f5f5;">
+            <h1 class="heading">CONTACT</h1>
+            <hr  class="solid">
+            <a href="#section2"  class="topButton"><span class="material-icons" >arrow_upward</span></a>
+            <p style="color: #67676e;;">Feel free to contact me.</p>
+            <!---Add your phone number at the end like (https://api.whatsapp.com/send?phone=12345678901)-->
+            <a href="https://api.whatsapp.com/send?phone=" style="background-color: #25D366;" class="contactIcons"><i class="fa fa-whatsapp"></i></a>
+            <!---Add email link like mailto:someone@example.com -->
+            <a href="mailto:desouzabcc@gmail.com?subject=texto do assunto"  style="background-color: #E60023;" class="contactIcons"><i class="fa fa-at"></i></a>
+            <a href="https://www.linkedin.com/in/alexandre-de-souza-44675623/" target="_blank" style="background-color: #0077b5;"  class="contactIcons"><i class="fa fa-linkedin-square"></i></a>
+        </div> 
+        
+        <!---FOOTER -->
+        <div class="container-fluid  text-center footer" >
+        <a href="https://github.com/wajihafatimaofficial">  <p>Designed by Wajiha Fatima</p></a>
+        </div>
+        
+    </body>
+</html>    
